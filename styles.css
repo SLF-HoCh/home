@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #46e8ff;
+    background-color: #2da3b3;
     color: #747474;
     padding: 10px 0;
     text-align: center;
@@ -36,7 +36,7 @@ main {
 }
 
 footer {
-    background-color: #46e8ff;
+    background-color: #2da3b3;
     color: #747474;
     text-align: center;
     padding: 10px 0;
@@ -64,7 +64,7 @@ footer {
 }
 
 pre {
-    background-color: #46e8ff;
+    background-color: #2da3b3;
     color: #747474;
     padding: 10px;
     overflow-x: auto;
