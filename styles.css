@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #46e8ff;
-    color: #fff;
+    color: #747474;
     padding: 10px 0;
     text-align: center;
 }
@@ -27,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #747474;
     text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ main {
 
 footer {
     background-color: #46e8ff;
-    color: #fff;
+    color: #747474;
     text-align: center;
     padding: 10px 0;
     position: absolute;
@@ -65,7 +65,7 @@ footer {
 
 pre {
     background-color: #46e8ff;
-    color: #fff;
+    color: #747474;
     padding: 10px;
     overflow-x: auto;
 }
