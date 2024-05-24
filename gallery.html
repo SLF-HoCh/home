@@ -21,15 +21,20 @@
         <section>
             <h2>Pictures</h2>
             <div class="gallery">
-                <img src="images/Gallery/Sass_BellyWarmer.jpg" alt="Sassafras">
-                <img src="images/Gallery/planning_escape.jpg" alt="Escape Planning">
-                <img src="images//Gallery/buddies.jpg" alt="Buddies">
+                <img src="images/Gallery/Sass_BellyWarmer.jpg" alt="Sassafras" onclick="openModal('images/Gallery/Sass_BellyWarmer.jpg')">
+                <img src="images/Gallery/planning_escape.jpg" alt="Escape Planning" onclick="openModal('images/Gallery/planning_escape.jpg')">
+                <img src="images//Gallery/buddies.jpg" alt="Buddies" onclick="openModal('images/Gallery/buddies.jpg')">
                 <!-- Add more pictures as needed -->
             </div>
         </section>
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImg">
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 SLF-HoCh</p>
     </footer>
+    <script src="gallery.js"></script>
 </body>
 </html>
