@@ -2,9 +2,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('images/main_background_large.png') no-repeat center center fixed;
+    background: url('images/main_background_verylarge.png') no-repeat center center fixed;
     background-size: cover;
     color: #333;
+}
+
+@media (max-width: 1280px) {
+    body{
+        background: url('images/main_background_large.png') no-repeat center center fixed;
+        background-size: cover;
+    }
 }
 
 header {
@@ -66,7 +73,7 @@ footer {
 }
 
 pre {
-    background-color: rgba(45, 163, 179, 1);
+    background-color: rgb(26, 26, 26);
     color: #fff;
     padding: 10px;
     overflow-x: auto;
