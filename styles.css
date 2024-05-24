@@ -2,12 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: url('images/main_background2.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
 }
 
 header {
-    background-color: #2da3b3;
-    color: #747474;
+    background-color: rgba(45, 163, 179, 0.7);
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
@@ -27,22 +29,22 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #747474;
+    color: #fff;
     text-decoration: none;
 }
 
 main {
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 20px;
+    border-radius: 8px;
 }
 
 footer {
-    background-color: #2da3b3;
-    color: #747474;
+    background-color: rgba(45, 163, 179, 0.7);
+    color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 .gallery {
@@ -64,8 +66,8 @@ footer {
 }
 
 pre {
-    background-color: #2da3b3;
-    color: #747474;
+    background-color: rgba(45, 163, 179, 1);
+    color: #fff;
     padding: 10px;
     overflow-x: auto;
 }
